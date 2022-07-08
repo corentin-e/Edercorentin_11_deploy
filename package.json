@@ -2,7 +2,7 @@
   "name": "edercorentin_11_23052022",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://corentin-e.github.io/Edercorentin_11_deploy/",
+  "homepage": "https://corentin-e.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
