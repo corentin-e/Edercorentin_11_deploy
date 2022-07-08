@@ -1,0 +1,38 @@
+.header_items_position {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+  z-index: 1;
+}
+
+.header_logo {
+  width: 20%;
+}
+
+.header_navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 150px;
+}
+
+.header_link {
+  text-decoration-color: #fe6666;
+}
+
+.header_navbar_items {
+  color: #fe6666;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .header_logo {
+    width: 35%;
+  }
+}

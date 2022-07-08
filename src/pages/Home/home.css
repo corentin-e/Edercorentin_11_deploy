@@ -1,0 +1,32 @@
+.homePage_items_position {
+    min-height: 100vh;
+}
+
+.homePage_housing_position {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.homePage_footer_position {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .homePage_housing_position {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .homePage_housing_position {
+        background-color: rgb(235, 232, 232);
+        padding: 40px;
+        border-radius: 20px;
+        flex-direction: row;
+    }
+}

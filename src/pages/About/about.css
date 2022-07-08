@@ -1,0 +1,17 @@
+.aboutPage_items_position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.aboutPage_dropdown_items_position {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.aboutPage_footer_position {
+    margin-top: auto;
+}

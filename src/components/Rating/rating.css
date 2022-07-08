@@ -1,0 +1,29 @@
+.stars_items_position {
+    display: flex;
+    justify-content: flex-end;
+    flex:0;
+}
+
+.stars_line_structure {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.star_design_active {
+    fill:#fe6666;
+}
+
+.star_design_inactive {
+    fill:rgb(239, 231, 231);
+}
+
+@media screen and (max-width: 700px) {
+    .stars_items_position {
+        display: flex;
+    }
+    .stars_line_structure {
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,140 @@
+.housingPage_page_position {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.housingPage_items_position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.housingPage_profile_items_position {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.housingPage_housing_details {
+    flex-direction: column;
+    flex: 1;
+}
+
+.housingPage_tags_items_position {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.housingPage_housing_host_details {
+    display:flex;
+    flex-direction: column;
+}
+
+.housingPage_host {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+    justify-content: flex-start;
+}
+
+.housingPage_name_host {
+    color: #fe6666;
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.housingPage_image_host_border {
+ border-radius: 100%;
+ border: red 1px solid;
+ overflow: hidden;
+ object-fit: cover;
+ height: 64px;
+ width: 64px;
+}
+
+.housingPage_image_host_position {
+    height: 100%;
+}
+
+.housingPage_title_housing {
+    justify-content: flex-start;
+    color: #fe6666;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.housingPage_location_housing {
+    width: 100%;
+    justify-content: flex-start;
+    color: #fe6666;
+    font-size: 18px;
+}
+
+.housingPage_housing_infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.housingPage_housing_description {
+    width: 48%;
+    margin-top: 24px;
+}
+
+
+.housingPage_footer_position {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .housingPage_text_items_position {
+        margin-top: 100px;
+    }
+
+    .housingPage_profile_items_position {
+        flex-direction: column;
+    }
+
+    .housingPage_title_housing {
+        font-size: 18px;
+    }
+
+    .housingPage_location_housing {
+        font-size: 14px;
+    }
+
+    .housingPage_host {
+       margin-top: 0px;
+       justify-content: flex-end;
+    }
+
+    .housingPage_image_host_border {
+        height: 32px;
+        width: 32px;
+       }
+
+    .housingPage_housing_infos {
+        flex-direction: column;
+    }
+
+    .housingPage_housing_description {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .housingPage_housing_host_details {
+        margin-top:10px;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    
+}

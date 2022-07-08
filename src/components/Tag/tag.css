@@ -1,0 +1,19 @@
+.tag_background {
+  background: #fe6666;
+  border-radius: 20;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-top:10px;
+}
+
+@media screen and (max-width: 700px) {
+  .tag_background {
+    font-size: 10px;
+  }
+}

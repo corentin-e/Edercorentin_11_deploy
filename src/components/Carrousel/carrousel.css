@@ -1,0 +1,93 @@
+.carrousel_background {
+    display: flex;
+    width: 90%;
+    height: 400px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .carrousel_items_position {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    height: 240px;
+    z-index: 1;
+    position: absolute;
+  }
+
+  .carrousel_info_position_housing_image {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+  }
+  
+  .carrousel_image {
+    width: 100%;
+  }
+
+  .carrousel_icons {
+    width: 150px;
+    height: 150px;
+  }
+
+  .carrousel_position_buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+  }
+
+  .carrousel_button_previous {
+    background-color: brown;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .carrousel_button_previous:hover {
+    background-color: #fe6666;
+    -webkit-transition: background-color 0.5s linear;
+    -ms-transition: background-color 0.5s linear;
+    transition: background-color 0.5s linear;
+  }
+  
+  .carrousel_button_next {
+    background-color: brown;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .carrousel_button_next:hover {
+    background-color: #fe6666;
+    -webkit-transition: background-color 0.5s linear;
+    -ms-transition: background-color 0.5s linear;
+    transition: background-color 0.5s linear;
+  }
+
+  @media screen and (max-width: 700px) {
+    .carrousel_background {
+      height: 100px;
+    }
+  
+    .carrousel_items_position {
+      font-size: 20px;
+    }
+  }
+  

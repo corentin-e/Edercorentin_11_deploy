@@ -1,0 +1,56 @@
+.errorPage_items_position {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.errorPage_text_items_position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.errorPage_code_item{
+    font-size: 200px;
+    color: #fe6666;
+}
+
+.errorPage_mesage_item {
+    font-size: 25px;
+    color: #fe6666;
+    text-align: center;
+}
+
+.errorPage_footer_position {
+    margin-top: 20px;
+}
+
+.errorPage_backhome_link_position {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.errorPage_backhome_item {
+    font-size: 10px;
+    text-decoration: underline;
+    color: #fe6666;
+}
+
+@media screen and (max-width: 700px) {
+    .errorPage_text_items_position {
+        margin-top: 100px;
+    }
+
+    .errorPage_code_item{
+        font-size: 100px;
+        color: #fe6666;
+    }
+    
+    .errorPage_mesage_item {
+        font-size: 15px;
+        color: #fe6666;
+        text-align: center;
+    }
+}
