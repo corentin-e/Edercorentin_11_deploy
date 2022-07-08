@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Edercorentin_11_22052022/static/css/main.fa6c4a07.css",
-    "main.js": "/Edercorentin_11_22052022/static/js/main.0d6e91e3.js",
-    "static/js/787.c9479ae7.chunk.js": "/Edercorentin_11_22052022/static/js/787.c9479ae7.chunk.js",
-    "static/media/welcome_image.jpg": "/Edercorentin_11_22052022/static/media/welcome_image.f917110bfc59e08afa03.jpg",
-    "static/media/about_image.jpg": "/Edercorentin_11_22052022/static/media/about_image.74374109a3bd72e1d744.jpg",
-    "static/media/Logo_kasa_footer.JPG": "/Edercorentin_11_22052022/static/media/Logo_kasa_footer.770fec965327fb06be6d.JPG",
-    "static/media/Logo_kasa.jpg": "/Edercorentin_11_22052022/static/media/Logo_kasa.d6ce7df94e8906810562.jpg",
-    "index.html": "/Edercorentin_11_22052022/index.html",
-    "main.fa6c4a07.css.map": "/Edercorentin_11_22052022/static/css/main.fa6c4a07.css.map",
-    "main.0d6e91e3.js.map": "/Edercorentin_11_22052022/static/js/main.0d6e91e3.js.map",
-    "787.c9479ae7.chunk.js.map": "/Edercorentin_11_22052022/static/js/787.c9479ae7.chunk.js.map"
+    "main.css": "/Edercorentin_11_deploy/static/css/main.fa6c4a07.css",
+    "main.js": "/Edercorentin_11_deploy/static/js/main.897739e3.js",
+    "static/js/787.c9479ae7.chunk.js": "/Edercorentin_11_deploy/static/js/787.c9479ae7.chunk.js",
+    "static/media/welcome_image.jpg": "/Edercorentin_11_deploy/static/media/welcome_image.f917110bfc59e08afa03.jpg",
+    "static/media/about_image.jpg": "/Edercorentin_11_deploy/static/media/about_image.74374109a3bd72e1d744.jpg",
+    "static/media/Logo_kasa_footer.JPG": "/Edercorentin_11_deploy/static/media/Logo_kasa_footer.770fec965327fb06be6d.JPG",
+    "static/media/Logo_kasa.jpg": "/Edercorentin_11_deploy/static/media/Logo_kasa.d6ce7df94e8906810562.jpg",
+    "index.html": "/Edercorentin_11_deploy/index.html",
+    "main.fa6c4a07.css.map": "/Edercorentin_11_deploy/static/css/main.fa6c4a07.css.map",
+    "main.897739e3.js.map": "/Edercorentin_11_deploy/static/js/main.897739e3.js.map",
+    "787.c9479ae7.chunk.js.map": "/Edercorentin_11_deploy/static/js/787.c9479ae7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa6c4a07.css",
-    "static/js/main.0d6e91e3.js"
+    "static/js/main.897739e3.js"
   ]
 }
